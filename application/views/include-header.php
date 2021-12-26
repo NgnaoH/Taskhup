@@ -194,67 +194,6 @@
                             <?php } ?>
                         </a>
                     </li>
-                    <?php if (is_admin()) { ?>
-                        <li class="dropdown <?= (current_url() == base_url('expenses') || current_url() == base_url('expenses/expense-types') || current_url() == base_url('estimates') || current_url() == base_url('estimates/create-estimate') || current_url() == base_url('taxes') || current_url() == base_url('items') || current_url() == base_url('units') || current_url() == base_url('invoices') || current_url() == base_url('payments') || current_url() == base_url('payments/payment-modes') || current_url() == base_url('invoices/create-invoice') || $this->uri->segment(2) == 'view-estimate' || $this->uri->segment(2) == 'invoice' || $this->uri->segment(2) == 'edit-estimate') || $this->uri->segment(2) == 'view-invoice' || $this->uri->segment(2) == 'edit-invoice' || $this->uri->segment(2) == 'estimate' ? ' active' : ''; ?>">
-                            <a href="#" class="nav-link has-dropdown" data-toggle="dropdown"><i class="fas fa-money-bill-alt text-info"></i> <span><?= !empty($this->lang->line('label_finance')) ? $this->lang->line('label_finance') : 'Finance'; ?></span></a>
-                            <ul class="dropdown-menu" style="display: none;">
-                                <li <?= (current_url() == base_url('expenses') || current_url() == base_url('expenses/expense-types')) ? 'class="active"' : ''; ?>>
-                                    <a class="nav-link" href="<?= base_url('expenses'); ?>">
-                                        <span>
-                                            <?= !empty($this->lang->line('label_expenses')) ? $this->lang->line('label_expenses') : 'Expenses'; ?>
-                                        </span>
-                                    </a>
-                                </li>
-
-                                <li <?= (current_url() == base_url('estimates') || current_url() == base_url('estimates/create-estimate') || $this->uri->segment(2) == 'view-estimate' || $this->uri->segment(2) == 'edit-estimate' || $this->uri->segment(2) == 'estimate') ? 'class="active"' : ''; ?>>
-                                    <a class="nav-link" href="<?= base_url('estimates'); ?>">
-                                        <span>
-                                            <?= !empty($this->lang->line('label_estimates')) ? $this->lang->line('label_estimates') : 'Estimates'; ?>
-                                        </span>
-                                    </a>
-                                </li>
-
-                                <li <?= (current_url() == base_url('invoices') || $this->uri->segment(2) == 'invoice' || current_url() == base_url('invoices/create-invoice') || $this->uri->segment(2) == 'view-invoice' || $this->uri->segment(2) == 'edit-invoice') ? 'class="active"' : ''; ?>>
-                                    <a class="nav-link" href="<?= base_url('invoices'); ?>">
-                                        <span>
-                                            <?= !empty($this->lang->line('label_invoices')) ? $this->lang->line('label_invoices') : 'Invoices'; ?>
-                                        </span>
-                                    </a>
-                                </li>
-                                <li <?= (current_url() == base_url('items')) ? 'class="active"' : ''; ?>>
-                                    <a class="nav-link" href="<?= base_url('items'); ?>">
-                                        <span>
-                                            <?= !empty($this->lang->line('label_items')) ? $this->lang->line('label_items') : 'Items'; ?>
-                                        </span>
-                                    </a>
-                                </li>
-                                <li <?= (current_url() == base_url('payments') || current_url() == base_url('payments/payment-modes')) ? 'class="active"' : ''; ?>>
-                                    <a class="nav-link" href="<?= base_url('payments'); ?>">
-                                        <span>
-                                            <?= !empty($this->lang->line('label_payments')) ? $this->lang->line('label_payments') : 'Payments'; ?>
-                                        </span>
-                                    </a>
-                                </li>
-                                <li <?= (current_url() == base_url('taxes')) ? 'class="active"' : ''; ?>>
-                                    <a class="nav-link" href="<?= base_url('taxes'); ?>">
-                                        <span>
-                                            <?= !empty($this->lang->line('label_taxes')) ? $this->lang->line('label_taxes') : 'Taxes'; ?>
-                                        </span>
-                                    </a>
-                                </li>
-
-                                <li <?= (current_url() == base_url('units')) ? 'class="active"' : ''; ?>>
-                                    <a class="nav-link" href="<?= base_url('units'); ?>">
-                                        <span>
-                                            <?= !empty($this->lang->line('label_units')) ? $this->lang->line('label_units') : 'Units'; ?>
-                                        </span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                    <?php } ?>
-
-
                     <li <?= (current_url() == base_url('users')) ? 'class="active"' : ''; ?>><a class="nav-link" href="<?= base_url('users'); ?>"><i class="fas fa-user text-warning"></i> <span>
                                 <?= !empty($this->lang->line('label_users')) ? $this->lang->line('label_users') : 'Users'; ?>
                             </span></a>
