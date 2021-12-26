@@ -5,7 +5,7 @@ if (!empty($data)) {
 $rtl = is_rtl() ? 'rtl/' : '';
 ?>
 
-<link rel="shortcut icon" href="<?= !empty($data->favicon) ? base_url('assets/icons/' . $data->favicon) : base_url('assets/icons/logo-half.png'); ?>">
+<link rel="shortcut icon" href="<?= !empty($data->favicon) ? base_url('assets/icons/' . $data->favicon) : base_url('assets/icons/logo.png'); ?>">
 
 <!-- General CSS Files -->
 

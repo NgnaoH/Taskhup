@@ -497,7 +497,7 @@ class Chat extends CI_Controller
 					$notification['msg_id'] = $msg_id;
 					$notification['new_msg'] = json_encode($new_msg);
 					$notification['body'] = $this->input->post('chat-input-textarea');
-					$notification['icon'] = 'assets/icons/' . (!empty(get_half_logo()) ? get_half_logo() : 'logo-half.png');
+					$notification['icon'] = 'assets/icons/' . (!empty(get_half_logo()) ? get_half_logo() : 'logo.png');
 					$notification['base_url'] = base_url('chat');
 					$data['data']['data'] = $notification;
 					$data['data']['webpush']['fcm_options']['link'] = base_url('chat');
@@ -560,7 +560,7 @@ class Chat extends CI_Controller
 					$notification['registrationIDs'] = $registrationIDs;
 					$notification['new_msg'] = json_encode($new_msg);
 					$notification['body'] = $this->input->post('chat-input-textarea');
-					$notification['icon'] = 'assets/icons/' . (!empty(get_half_logo()) ? get_half_logo() : 'logo-half.png');
+					$notification['icon'] = 'assets/icons/' . (!empty(get_half_logo()) ? get_half_logo() : 'logo.png');
 					$notification['base_url'] = base_url('chat');
 					$data['data']['data'] = $notification;
 					$data['data']['webpush']['fcm_options']['link'] = base_url('chat');
@@ -841,7 +841,7 @@ class Chat extends CI_Controller
 			$notification['from_id'] = $from_id;
 			$notification['to_id'] = $to_id;
 			$notification['body'] = $msg;
-			$notification['icon'] = 'assets/icons/' . (!empty(get_half_logo()) ? get_half_logo() : 'logo-half.png');
+			$notification['icon'] = 'assets/icons/' . (!empty(get_half_logo()) ? get_half_logo() : 'logo.png');
 			$notification['base_url'] = base_url('chat');
 			$data['data']['data'] = $notification;
 			if ($type == 'message') {

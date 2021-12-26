@@ -17,7 +17,7 @@
       <div class="main-content">
         <section class="section">
           <div class="section-header">
-            <h1><?= !empty($this->lang->line('label_settings'))?$this->lang->line('label_settings'):'Settings'; ?> (<?= !empty($this->lang->line('label_version'))?$this->lang->line('label_version'):'Version'; ?> <?=get_system_version();?>) </h1> <a href="<?=base_url('updater');?>"> <?= !empty($this->lang->line('label_update'))?$this->lang->line('label_update'):'Update'; ?></a>
+            <h1><?= !empty($this->lang->line('label_settings'))?$this->lang->line('label_settings'):'Settings'; ?> </h1> <a href="<?=base_url('updater');?>"></a>
           </div>
 
           <div class="section-body">
