@@ -20,7 +20,6 @@
     <div class="footer-left">
     </div>
     <div class="footer-right">
-        Copyright &copy; <?=date('Y');?> <div class="bullet"></div> Design & Developed By <a href="https://www.infinitietech.com/" target="_blank">Infinitie Technologies</a>
     </div>
 </footer>
 

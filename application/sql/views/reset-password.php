@@ -55,7 +55,7 @@
               </div>
             </div>
             <div class="simple-footer">
-              Copyright &copy; <?= get_compnay_title(); ?> <?=date('Y');?>
+            Đại Học Thủy Lợi
             </div>
           </div>
         </div>

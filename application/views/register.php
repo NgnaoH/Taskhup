@@ -108,7 +108,7 @@
               </div>
             </div>
             <div class="simple-footer">
-              Copyright &copy; Task Hub 2019
+            Đại Học Thủy Lợi
             </div>
           </div>
         </div>

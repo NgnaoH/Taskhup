@@ -57,9 +57,7 @@
               </div>
             </div>
             <div class="simple-footer">
-              Copyright &copy; <?= get_compnay_title(); ?> <?=date('Y');?>
-              <br>
-              Design & Developed By <a href="https://www.infinitietech.com/" target="_blank">Infinitie Technologies</a>
+            Đại Học Thủy Lợi
             </div>
           </div>
         </div>
