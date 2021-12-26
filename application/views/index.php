@@ -4,18 +4,18 @@
 <head>
   <meta charset="UTF-8">
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
-  <title>Login &mdash; <?= !empty(get_compnay_title()) ? get_compnay_title() : 'Taskhub'; ?></title>
+  <title>Login &mdash; <?= !empty(get_compnay_title()) ? get_compnay_title() : 'QLCV'; ?></title>
   <?php include('include-css.php'); ?>
 </head>
 
 <body>
   <div id="app">
-    <section class="section">
-      <div class="container mt-5">
+    <section class="section section-login">
+      <div class="container">
         <div class="row">
           <div class="col-12 col-sm-8 offset-sm-2 col-md-6 offset-md-3 col-lg-6 offset-lg-3 col-xl-4 offset-xl-4">
             <div class="login-brand">
-              <img src="<?= base_url('assets/icons/' . (!empty(get_full_logo()) ? get_full_logo() : 'logo.png')); ?>" alt="logo" width="350">
+              <img src="<?= base_url('assets/icons/' . (!empty(get_full_logo()) ? get_full_logo() : 'logo.png')); ?>" alt="logo" width="150">
             </div>
 
             <div class="card card-primary">
@@ -68,10 +68,39 @@
               </div>
             </div>
             <div class="simple-footer">
-              Copyright &copy; <?= get_compnay_title(); ?> <?= date('Y'); ?>
-              <br>
-              Design & Developed By <a href="https://www.infinitietech.com/" target="_blank">Infinitie Technologies</a>
+             Đại Học Thủy Lợi
             </div>
+            <footer class="text-center text-white">
+
+<section class=" mb-4">
+  <a
+    class="btn btn-primary btn-floating "
+    style="background-color: #3b5998;"
+    href="https://www.facebook.com/itsme.9x/" title="Facebook" target="_blank"
+    role="button"
+    ><i class="fab fa-facebook-f"></i
+  ></a>
+  <a
+
+    class="btn btn-primary btn-floating "
+    style="background-color: #198754;"
+    href="https://chat.zalo.me/?phone=0926510209" title="Zalo" target="_blank"
+
+    role="button"
+    ><i class="    fas fa-address-book  "></i
+  ></a>
+  <a
+    class="btn btn-primary btn-floating "
+    style="background-color: #dd4b39;"
+    href="javascript:alert('My email : hoanghai121298.dhtl')"Execute JavaScript
+    role="button"
+    ><i class="fab fa-googl e"></i
+  ></a>
+
+</section>
+
+</div>
+</footer>
           </div>
         </div>
       </div>

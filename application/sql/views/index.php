@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
-  <title>Login &mdash; <?= !empty(get_compnay_title())?get_compnay_title():'Taskhub'; ?></title>
+  <title>Login &mdash; <?= !empty(get_compnay_title())?get_compnay_title():'QLCV'; ?></title>
   <?php include('include-css.php'); ?></head>
 
 <body>
@@ -13,7 +13,7 @@
         <div class="row">
           <div class="col-12 col-sm-8 offset-sm-2 col-md-6 offset-md-3 col-lg-6 offset-lg-3 col-xl-4 offset-xl-4">
             <div class="login-brand">
-              <img src="<?= base_url('assets/icons/'.(!empty(get_full_logo())?get_full_logo():'logo.png')); ?>" alt="logo" width="350">
+              <img src="<?= base_url('assets/icons/'.(!empty(get_full_logo())?get_full_logo():'logo.png')); ?>" alt="logo" width="150">
             </div>
 
             <div class="card card-primary">

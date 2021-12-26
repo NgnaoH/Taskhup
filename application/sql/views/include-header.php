@@ -40,12 +40,12 @@
         <aside id="sidebar-wrapper">
           <div class="sidebar-brand">
             <a href="<?= base_url('home'); ?>">
-              <img alt="Task Hub" src="<?= !empty($data->full_logo)? base_url('assets/icons/'.$data->full_logo):base_url('assets/icons/logo.png'); ?>" width="200px">
+              <img alt="Task Hub" src="<?= !empty($data->full_logo)? base_url('assets/icons/'.$data->full_logo):base_url('assets/icons/logo.png'); ?>" width="70px">
             </a>
           </div>
           <div class="sidebar-brand sidebar-brand-sm">
             <a href="<?= base_url('home'); ?>">
-              <img alt="Task Hub" src="<?= !empty($data->half_logo)? base_url('assets/icons/'.$data->half_logo):base_url('assets/icons/logo-half.png'); ?>" width="40px">
+              <img alt="Task Hub" src="<?= !empty($data->half_logo)? base_url('assets/icons/'.$data->half_logo):base_url('assets/icons/logo.png'); ?>" width="10px">
             </a>
           </div>
           

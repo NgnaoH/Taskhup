@@ -2179,6 +2179,12 @@ pre {
   .icon-wrap {
     width: 100%; } }
 /* 4.2 Section */
+
+.section-login {
+  background-image: url(../img/bg-login.jpg);
+  background-size: cover;
+
+}
 .section {
   position: relative;
   z-index: 1; }
@@ -2772,7 +2778,7 @@ body:not(.sidebar-mini) .sidebar-style-2 .sidebar-menu li.active ul.dropdown-men
   animation-iteration-count: infinite;
   opacity: 1; }
 
-@-webkit-keyframes pulsate {
+/* @-webkit-keyframes pulsate {
   0% {
     -webkit-transform: scale(0.1, 0.1);
     opacity: 0.0; }
@@ -2780,6 +2786,6 @@ body:not(.sidebar-mini) .sidebar-style-2 .sidebar-menu li.active ul.dropdown-men
     opacity: 1.0; }
   100% {
     -webkit-transform: scale(1.2, 1.2);
-    opacity: 0.0; } }
+    opacity: 0.0; } } */
 
 /*# source-MappingURL=style.css.map */
